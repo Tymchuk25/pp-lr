@@ -11,6 +11,10 @@ public class FibonacciSquareSum {
      return fib;
     }
 
+    public static int Test(){
+        return 0;
+    }
+
     public int SumSquare(int n){
         int[]fib = fibonacci(n);
         int sum=0;

@@ -10,5 +10,7 @@ public class Main {
         FibonacciSquareSum fibonacciSquareSum = new FibonacciSquareSum();
         int result = fibonacciSquareSum.SumSquare(N);
         System.out.println("Сума квадратів перших " + N + " чисел Фібоначчі: " + result);
+
+        FibonacciSquareSum.Test();
     }
 }
